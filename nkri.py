@@ -100,7 +100,7 @@ entry.insert(0, "60")  # default 60 minutes
 
 tk.Button(root, text="Start Auto Update", command=start).pack(pady=10)
 
-# Update Counter Display
+# Update Counter Display, this is introduced for a bug raised
 counter_label = tk.Label(root, text="Successful Updates: 0", font=("Helvetica", 12))
 counter_label.pack(pady=5)
 
