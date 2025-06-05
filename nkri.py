@@ -104,7 +104,7 @@ tk.Button(root, text="Start Auto Update", command=start).pack(pady=10)
 counter_label = tk.Label(root, text="Successful Updates: 0", font=("Helvetica", 12))
 counter_label.pack(pady=5)
 
-# Reset Button
+# Reset Button, This button will reset the count to Zero if you want to restart all over
 tk.Button(root, text="Reset Counter", command=reset_counter).pack(pady=5)
 
 root.mainloop()
