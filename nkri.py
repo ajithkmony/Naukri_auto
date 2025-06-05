@@ -12,6 +12,8 @@ from selenium.webdriver.support import expected_conditions as EC
 EDGE_USER_DATA_DIR = r"C:\Users\admin\AppData\Local\Microsoft\Edge\User Data"
 EDGE_PROFILE = "Default"  # Usually 'Default' unless you use multiple profiles
 
+
+### Testing
 update_count = 0  # global counter
 
 # UI update function
